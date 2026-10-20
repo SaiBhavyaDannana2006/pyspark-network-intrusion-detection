@@ -1,0 +1,9 @@
+proto,count,percentage
+udp,1250,12.5
+unas,1250,12.5
+tcp,1250,12.5
+gre,1250,12.5
+ospf,1250,12.5
+any,1250,12.5
+arp,1250,12.5
+sctp,1250,12.5

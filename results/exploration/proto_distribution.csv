@@ -1,0 +1,7 @@
+proto,count,percentage
+ospf,2563,17.09
+sctp,2546,16.97
+udp,2516,16.77
+tcp,2494,16.63
+icmp,2480,16.53
+arp,2401,16.01

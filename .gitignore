@@ -1,0 +1,56 @@
+# ==============================================================================
+# SentinelSpark — Git Ignore Rules
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions & packaging
+*.so
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment & credentials
+.env
+
+# Spark runtime, warehouses, temporary files
+metastore_db/
+derby.log
+derby.log.*
+spark-warehouse/
+*.spark/
+scratch/
+temp/
+tmp/
+
+# Logs & debugging
+*.log
+logs/
+
+# Large datasets & raw partitions (UNSW-NB15 raw dumps)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system & IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

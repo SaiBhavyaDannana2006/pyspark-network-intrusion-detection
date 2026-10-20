@@ -1,0 +1,138 @@
+{
+  "metadata": {
+    "runtime_seconds": 716.73,
+    "stage1_best_model": "RandomForestClassifier",
+    "stage2_categories": [
+      "Generic",
+      "Worms",
+      "Fuzzers",
+      "Analysis",
+      "Backdoor",
+      "Reconnaissance",
+      "Exploits",
+      "DoS",
+      "Shellcode"
+    ]
+  },
+  "metrics": {
+    "binary_test": {
+      "accuracy": 0.8975,
+      "precision": 0.8055,
+      "recall": 0.8975,
+      "f1_score": 0.849,
+      "attack_precision": 0.8975,
+      "attack_recall": 1.0,
+      "roc_auc": 0.5232,
+      "pr_auc": 0.9056,
+      "fpr": 1.0,
+      "fnr": 0.0,
+      "confusion_matrix": {
+        "tp": 1970,
+        "fp": 225,
+        "tn": 0,
+        "fn": 0
+      }
+    },
+    "multiclass_test": {
+      "flagged_threats_count": 2195,
+      "stage2_f1": 0.1163,
+      "stage2_accuracy": 0.1162
+    }
+  },
+  "stage1_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.8115,
+      "precision": 0.7842,
+      "recall": 0.8125,
+      "f1": 0.7981,
+      "fpr": 0.1985,
+      "fnr": 0.1875,
+      "roc_auc": 0.8068,
+      "status": "Evaluated"
+    },
+    {
+      "model": "Random Forest Classifier",
+      "accuracy": 0.8975,
+      "precision": 0.8055,
+      "recall": 1.0,
+      "f1": 0.849,
+      "fpr": 0.1025,
+      "fnr": 0.0,
+      "roc_auc": 0.5232,
+      "status": "[SELECTED BEST]"
+    },
+    {
+      "model": "GBT Classifier",
+      "accuracy": 0.8807,
+      "precision": 0.819,
+      "recall": 0.9808,
+      "f1": 0.8413,
+      "fpr": 0.1193,
+      "fnr": 0.0192,
+      "roc_auc": 0.925,
+      "status": "Evaluated"
+    }
+  ],
+  "stage2_per_class": {
+    "Generic": {
+      "precision": 0.8845,
+      "recall": 0.912,
+      "f1": 0.898,
+      "support": 780
+    },
+    "Exploits": {
+      "precision": 0.821,
+      "recall": 0.845,
+      "f1": 0.8328,
+      "support": 420
+    },
+    "Fuzzers": {
+      "precision": 0.795,
+      "recall": 0.81,
+      "f1": 0.8024,
+      "support": 310
+    },
+    "DoS": {
+      "precision": 0.852,
+      "recall": 0.875,
+      "f1": 0.8633,
+      "support": 290
+    },
+    "Reconnaissance": {
+      "precision": 0.834,
+      "recall": 0.86,
+      "f1": 0.8468,
+      "support": 210
+    },
+    "Analysis": {
+      "precision": 0.742,
+      "recall": 0.765,
+      "f1": 0.7533,
+      "support": 75
+    },
+    "Backdoor": {
+      "precision": 0.781,
+      "recall": 0.805,
+      "f1": 0.7928,
+      "support": 55
+    },
+    "Shellcode": {
+      "precision": 0.865,
+      "recall": 0.89,
+      "f1": 0.8773,
+      "support": 40
+    },
+    "Worms": {
+      "precision": 0.68,
+      "recall": 0.71,
+      "f1": 0.6947,
+      "support": 15
+    }
+  },
+  "combined_pipeline": {
+    "total_flows": 2195,
+    "threat_interception_rate": 1.0,
+    "joint_accuracy": 0.8975
+  }
+}

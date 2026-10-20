@@ -1,0 +1,11 @@
+attack_cat,count,ratio,percentage
+Generic,1600,0.1067,10.67
+Worms,1525,0.1017,10.17
+Reconnaissance,1517,0.1011,10.11
+Analysis,1511,0.1007,10.07
+Shellcode,1498,0.0999,9.99
+Backdoor,1492,0.0995,9.95
+Fuzzers,1491,0.0994,9.94
+Exploits,1469,0.0979,9.79
+DoS,1459,0.0973,9.73
+Normal,1438,0.0959,9.59

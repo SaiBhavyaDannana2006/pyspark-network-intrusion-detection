@@ -1,0 +1,15 @@
+{
+  "runtime_seconds": 716.73,
+  "stage1_best_model": "RandomForestClassifier",
+  "stage2_categories": [
+    "Generic",
+    "Worms",
+    "Fuzzers",
+    "Analysis",
+    "Backdoor",
+    "Reconnaissance",
+    "Exploits",
+    "DoS",
+    "Shellcode"
+  ]
+}

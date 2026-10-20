@@ -1,0 +1,3 @@
+"""
+SentinelSpark test suite initialization.
+"""

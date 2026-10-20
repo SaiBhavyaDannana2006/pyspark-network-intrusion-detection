@@ -1,0 +1,11 @@
+id,proto,service,state,dur,spkts,dpkts,sbytes,dbytes,attack_probability,is_attack,attack_status,predicted_attack_cat
+5,ospf,smtp,req,1.562084829678608,7.0,99.0,5699.0,14615.0,0.926,True,ATTACK,Reconnaissance
+7,tcp,-,con,1.6462242898014008,117.0,14.0,84315.0,16698.0,0.9374,True,ATTACK,Shellcode
+6,udp,http,acc,0.14445692780382852,80.0,146.0,8940.0,154901.0,0.8639,True,ATTACK,Fuzzers
+0,udp,dns,fin,1.996333671796945,96.0,7.0,55392.0,3396.0,0.9224,True,ATTACK,Shellcode
+2,icmp,smtp,rst,0.1002650127726315,81.0,56.0,34313.0,44228.0,0.7487,True,ATTACK,Exploits
+3,sctp,ssh,int,1.6781503679228407,45.0,72.0,24294.0,7872.0,0.9437,True,ATTACK,Worms
+8,icmp,dns,int,2.4192247322238742,11.0,128.0,8893.0,92580.0,0.9503,True,ATTACK,Reconnaissance
+1,icmp,dns,clo,1.9928253379736647,5.0,101.0,1684.0,62158.0,0.9447,True,ATTACK,Reconnaissance
+4,arp,smtp,clo,0.9275923086331178,58.0,94.0,5001.0,78037.0,0.9416,True,ATTACK,Fuzzers
+9,arp,dhcp,req,0.22423940214258697,103.0,145.0,51039.0,41398.0,0.8165,True,ATTACK,Worms
